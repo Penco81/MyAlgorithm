@@ -1,0 +1,6 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/pengke/Github/MyAlgorithm/Project -B /Users/pengke/Github/MyAlgorithm/Project/cmake-build-debug
+    -- /Users/pengke/Github/MyAlgorithm/Project/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
+    -- /Users/pengke/Github/MyAlgorithm/Project/main.cpp will be compiled to bin/main
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/pengke/Github/MyAlgorithm/Project/cmake-build-debug

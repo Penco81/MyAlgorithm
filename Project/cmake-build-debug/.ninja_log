@@ -1,0 +1,5 @@
+# ninja log v5
+0	27	1669430394281187916	CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o	ad8de6aee444681d
+27	68	1669430394321854875	CMakeCXXCompilerId	810c0cd8db29a757
+0	221	1669430402200858342	CMakeFiles/main.dir/main.cpp.o	b3b94502e3919c08
+222	257	1669430402238647429	main	34c88a5dc7729b3e

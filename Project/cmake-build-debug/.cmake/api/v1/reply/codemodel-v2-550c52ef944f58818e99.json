@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CMakeCXXCompilerId::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CMakeCXXCompilerId-Debug-504dd35e164283053cee.json",
+					"name" : "CMakeCXXCompilerId",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-533d9c882c7cd3da1f34.json",
+					"name" : "main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/pengke/Github/MyAlgorithm/Project/cmake-build-debug",
+		"source" : "/Users/pengke/Github/MyAlgorithm/Project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
