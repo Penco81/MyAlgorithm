@@ -1,4 +1,12 @@
 /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/pengke/Github/MyAlgorithm/Project -B /Users/pengke/Github/MyAlgorithm/Project/cmake-build-debug
+    -- /Users/pengke/Github/MyAlgorithm/Project/Match1/1_1.cpp will be compiled to bin/1_1
+    -- /Users/pengke/Github/MyAlgorithm/Project/Match1/1_2.cpp will be compiled to bin/1_2
+    -- /Users/pengke/Github/MyAlgorithm/Project/Match1/1_3.cpp will be compiled to bin/1_3
+    -- /Users/pengke/Github/MyAlgorithm/Project/Match1/1_4.cpp will be compiled to bin/1_4
+    -- /Users/pengke/Github/MyAlgorithm/Project/Match2/2_1.cpp will be compiled to bin/2_1
+    -- /Users/pengke/Github/MyAlgorithm/Project/Match2/2_2.cpp will be compiled to bin/2_2
+    -- /Users/pengke/Github/MyAlgorithm/Project/Match2/2_3.cpp will be compiled to bin/2_3
+    -- /Users/pengke/Github/MyAlgorithm/Project/Match2/2_4.cpp will be compiled to bin/2_4
     -- /Users/pengke/Github/MyAlgorithm/Project/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp will be compiled to bin/CMakeCXXCompilerId
     -- /Users/pengke/Github/MyAlgorithm/Project/main.cpp will be compiled to bin/main
 -- Configuring done

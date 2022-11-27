@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1_1-Debug-83ea637e277c317f86e0.json",
+					"name" : "1_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1_2-Debug-b148280640b43f21b5dd.json",
+					"name" : "1_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1_3-Debug-be3d32656c56868dc6e2.json",
+					"name" : "1_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1_4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1_4-Debug-65d17c6a9ec766fd55e3.json",
+					"name" : "1_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_1-Debug-6792285472863696b93f.json",
+					"name" : "2_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_2-Debug-7892f8054b57ae8d3a04.json",
+					"name" : "2_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2_3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_3-Debug-61fd3616cb22f8938357.json",
+					"name" : "2_3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2_4::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_4-Debug-209cf2f621b093d1b5c7.json",
+					"name" : "2_4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CMakeCXXCompilerId::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CMakeCXXCompilerId-Debug-968b16dc8e9605100ac9.json",
+					"name" : "CMakeCXXCompilerId",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-74c1c5a6013a2b48ce65.json",
+					"name" : "main",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/pengke/Github/MyAlgorithm/Project/cmake-build-debug",
+		"source" : "/Users/pengke/Github/MyAlgorithm/Project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

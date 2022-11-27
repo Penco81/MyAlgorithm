@@ -38,6 +38,590 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/pengke/Github/MyAlgorithm/Project/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target 1_1
+
+
+#############################################
+# Order-only phony target for 1_1
+
+build cmake_object_order_depends_target_1_1: phony || CMakeFiles/1_1.dir
+
+build CMakeFiles/1_1.dir/Match1/1_1.cpp.o: CXX_COMPILER__1_1_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_1.cpp || cmake_object_order_depends_target_1_1
+  DEP_FILE = CMakeFiles/1_1.dir/Match1/1_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_1.dir/Match1
+
+build CMakeFiles/1_1.dir/Match1/1_2.cpp.o: CXX_COMPILER__1_1_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_2.cpp || cmake_object_order_depends_target_1_1
+  DEP_FILE = CMakeFiles/1_1.dir/Match1/1_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_1.dir/Match1
+
+build CMakeFiles/1_1.dir/Match1/1_3.cpp.o: CXX_COMPILER__1_1_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_3.cpp || cmake_object_order_depends_target_1_1
+  DEP_FILE = CMakeFiles/1_1.dir/Match1/1_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_1.dir/Match1
+
+build CMakeFiles/1_1.dir/Match1/1_4.cpp.o: CXX_COMPILER__1_1_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_4.cpp || cmake_object_order_depends_target_1_1
+  DEP_FILE = CMakeFiles/1_1.dir/Match1/1_4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_1.dir/Match1
+
+build CMakeFiles/1_1.dir/Match2/2_1.cpp.o: CXX_COMPILER__1_1_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_1.cpp || cmake_object_order_depends_target_1_1
+  DEP_FILE = CMakeFiles/1_1.dir/Match2/2_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_1.dir/Match2
+
+build CMakeFiles/1_1.dir/Match2/2_2.cpp.o: CXX_COMPILER__1_1_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_2.cpp || cmake_object_order_depends_target_1_1
+  DEP_FILE = CMakeFiles/1_1.dir/Match2/2_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_1.dir/Match2
+
+build CMakeFiles/1_1.dir/Match2/2_3.cpp.o: CXX_COMPILER__1_1_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_3.cpp || cmake_object_order_depends_target_1_1
+  DEP_FILE = CMakeFiles/1_1.dir/Match2/2_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_1.dir/Match2
+
+build CMakeFiles/1_1.dir/Match2/2_4.cpp.o: CXX_COMPILER__1_1_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_4.cpp || cmake_object_order_depends_target_1_1
+  DEP_FILE = CMakeFiles/1_1.dir/Match2/2_4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_1.dir/Match2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1_1
+
+
+#############################################
+# Link the executable 1_1
+
+build 1_1: CXX_EXECUTABLE_LINKER__1_1_Debug CMakeFiles/1_1.dir/Match1/1_1.cpp.o CMakeFiles/1_1.dir/Match1/1_2.cpp.o CMakeFiles/1_1.dir/Match1/1_3.cpp.o CMakeFiles/1_1.dir/Match1/1_4.cpp.o CMakeFiles/1_1.dir/Match2/2_1.cpp.o CMakeFiles/1_1.dir/Match2/2_2.cpp.o CMakeFiles/1_1.dir/Match2/2_3.cpp.o CMakeFiles/1_1.dir/Match2/2_4.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/1_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1_1
+  TARGET_PDB = 1_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1_2
+
+
+#############################################
+# Order-only phony target for 1_2
+
+build cmake_object_order_depends_target_1_2: phony || CMakeFiles/1_2.dir
+
+build CMakeFiles/1_2.dir/Match1/1_2.cpp.o: CXX_COMPILER__1_2_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_2.cpp || cmake_object_order_depends_target_1_2
+  DEP_FILE = CMakeFiles/1_2.dir/Match1/1_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_2.dir/Match1
+
+build CMakeFiles/1_2.dir/Match1/1_1.cpp.o: CXX_COMPILER__1_2_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_1.cpp || cmake_object_order_depends_target_1_2
+  DEP_FILE = CMakeFiles/1_2.dir/Match1/1_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_2.dir/Match1
+
+build CMakeFiles/1_2.dir/Match1/1_3.cpp.o: CXX_COMPILER__1_2_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_3.cpp || cmake_object_order_depends_target_1_2
+  DEP_FILE = CMakeFiles/1_2.dir/Match1/1_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_2.dir/Match1
+
+build CMakeFiles/1_2.dir/Match1/1_4.cpp.o: CXX_COMPILER__1_2_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_4.cpp || cmake_object_order_depends_target_1_2
+  DEP_FILE = CMakeFiles/1_2.dir/Match1/1_4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_2.dir/Match1
+
+build CMakeFiles/1_2.dir/Match2/2_1.cpp.o: CXX_COMPILER__1_2_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_1.cpp || cmake_object_order_depends_target_1_2
+  DEP_FILE = CMakeFiles/1_2.dir/Match2/2_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_2.dir/Match2
+
+build CMakeFiles/1_2.dir/Match2/2_2.cpp.o: CXX_COMPILER__1_2_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_2.cpp || cmake_object_order_depends_target_1_2
+  DEP_FILE = CMakeFiles/1_2.dir/Match2/2_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_2.dir/Match2
+
+build CMakeFiles/1_2.dir/Match2/2_3.cpp.o: CXX_COMPILER__1_2_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_3.cpp || cmake_object_order_depends_target_1_2
+  DEP_FILE = CMakeFiles/1_2.dir/Match2/2_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_2.dir/Match2
+
+build CMakeFiles/1_2.dir/Match2/2_4.cpp.o: CXX_COMPILER__1_2_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_4.cpp || cmake_object_order_depends_target_1_2
+  DEP_FILE = CMakeFiles/1_2.dir/Match2/2_4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_2.dir/Match2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1_2
+
+
+#############################################
+# Link the executable 1_2
+
+build 1_2: CXX_EXECUTABLE_LINKER__1_2_Debug CMakeFiles/1_2.dir/Match1/1_2.cpp.o CMakeFiles/1_2.dir/Match1/1_1.cpp.o CMakeFiles/1_2.dir/Match1/1_3.cpp.o CMakeFiles/1_2.dir/Match1/1_4.cpp.o CMakeFiles/1_2.dir/Match2/2_1.cpp.o CMakeFiles/1_2.dir/Match2/2_2.cpp.o CMakeFiles/1_2.dir/Match2/2_3.cpp.o CMakeFiles/1_2.dir/Match2/2_4.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/1_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1_2
+  TARGET_PDB = 1_2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1_3
+
+
+#############################################
+# Order-only phony target for 1_3
+
+build cmake_object_order_depends_target_1_3: phony || CMakeFiles/1_3.dir
+
+build CMakeFiles/1_3.dir/Match1/1_3.cpp.o: CXX_COMPILER__1_3_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_3.cpp || cmake_object_order_depends_target_1_3
+  DEP_FILE = CMakeFiles/1_3.dir/Match1/1_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_3.dir/Match1
+
+build CMakeFiles/1_3.dir/Match1/1_1.cpp.o: CXX_COMPILER__1_3_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_1.cpp || cmake_object_order_depends_target_1_3
+  DEP_FILE = CMakeFiles/1_3.dir/Match1/1_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_3.dir/Match1
+
+build CMakeFiles/1_3.dir/Match1/1_2.cpp.o: CXX_COMPILER__1_3_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_2.cpp || cmake_object_order_depends_target_1_3
+  DEP_FILE = CMakeFiles/1_3.dir/Match1/1_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_3.dir/Match1
+
+build CMakeFiles/1_3.dir/Match1/1_4.cpp.o: CXX_COMPILER__1_3_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_4.cpp || cmake_object_order_depends_target_1_3
+  DEP_FILE = CMakeFiles/1_3.dir/Match1/1_4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_3.dir/Match1
+
+build CMakeFiles/1_3.dir/Match2/2_1.cpp.o: CXX_COMPILER__1_3_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_1.cpp || cmake_object_order_depends_target_1_3
+  DEP_FILE = CMakeFiles/1_3.dir/Match2/2_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_3.dir/Match2
+
+build CMakeFiles/1_3.dir/Match2/2_2.cpp.o: CXX_COMPILER__1_3_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_2.cpp || cmake_object_order_depends_target_1_3
+  DEP_FILE = CMakeFiles/1_3.dir/Match2/2_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_3.dir/Match2
+
+build CMakeFiles/1_3.dir/Match2/2_3.cpp.o: CXX_COMPILER__1_3_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_3.cpp || cmake_object_order_depends_target_1_3
+  DEP_FILE = CMakeFiles/1_3.dir/Match2/2_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_3.dir/Match2
+
+build CMakeFiles/1_3.dir/Match2/2_4.cpp.o: CXX_COMPILER__1_3_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_4.cpp || cmake_object_order_depends_target_1_3
+  DEP_FILE = CMakeFiles/1_3.dir/Match2/2_4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_3.dir/Match2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1_3
+
+
+#############################################
+# Link the executable 1_3
+
+build 1_3: CXX_EXECUTABLE_LINKER__1_3_Debug CMakeFiles/1_3.dir/Match1/1_3.cpp.o CMakeFiles/1_3.dir/Match1/1_1.cpp.o CMakeFiles/1_3.dir/Match1/1_2.cpp.o CMakeFiles/1_3.dir/Match1/1_4.cpp.o CMakeFiles/1_3.dir/Match2/2_1.cpp.o CMakeFiles/1_3.dir/Match2/2_2.cpp.o CMakeFiles/1_3.dir/Match2/2_3.cpp.o CMakeFiles/1_3.dir/Match2/2_4.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/1_3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1_3
+  TARGET_PDB = 1_3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1_4
+
+
+#############################################
+# Order-only phony target for 1_4
+
+build cmake_object_order_depends_target_1_4: phony || CMakeFiles/1_4.dir
+
+build CMakeFiles/1_4.dir/Match1/1_4.cpp.o: CXX_COMPILER__1_4_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_4.cpp || cmake_object_order_depends_target_1_4
+  DEP_FILE = CMakeFiles/1_4.dir/Match1/1_4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_4.dir/Match1
+
+build CMakeFiles/1_4.dir/Match1/1_1.cpp.o: CXX_COMPILER__1_4_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_1.cpp || cmake_object_order_depends_target_1_4
+  DEP_FILE = CMakeFiles/1_4.dir/Match1/1_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_4.dir/Match1
+
+build CMakeFiles/1_4.dir/Match1/1_2.cpp.o: CXX_COMPILER__1_4_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_2.cpp || cmake_object_order_depends_target_1_4
+  DEP_FILE = CMakeFiles/1_4.dir/Match1/1_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_4.dir/Match1
+
+build CMakeFiles/1_4.dir/Match1/1_3.cpp.o: CXX_COMPILER__1_4_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_3.cpp || cmake_object_order_depends_target_1_4
+  DEP_FILE = CMakeFiles/1_4.dir/Match1/1_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_4.dir/Match1
+
+build CMakeFiles/1_4.dir/Match2/2_1.cpp.o: CXX_COMPILER__1_4_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_1.cpp || cmake_object_order_depends_target_1_4
+  DEP_FILE = CMakeFiles/1_4.dir/Match2/2_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_4.dir/Match2
+
+build CMakeFiles/1_4.dir/Match2/2_2.cpp.o: CXX_COMPILER__1_4_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_2.cpp || cmake_object_order_depends_target_1_4
+  DEP_FILE = CMakeFiles/1_4.dir/Match2/2_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_4.dir/Match2
+
+build CMakeFiles/1_4.dir/Match2/2_3.cpp.o: CXX_COMPILER__1_4_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_3.cpp || cmake_object_order_depends_target_1_4
+  DEP_FILE = CMakeFiles/1_4.dir/Match2/2_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_4.dir/Match2
+
+build CMakeFiles/1_4.dir/Match2/2_4.cpp.o: CXX_COMPILER__1_4_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_4.cpp || cmake_object_order_depends_target_1_4
+  DEP_FILE = CMakeFiles/1_4.dir/Match2/2_4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/1_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_4.dir/Match2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1_4
+
+
+#############################################
+# Link the executable 1_4
+
+build 1_4: CXX_EXECUTABLE_LINKER__1_4_Debug CMakeFiles/1_4.dir/Match1/1_4.cpp.o CMakeFiles/1_4.dir/Match1/1_1.cpp.o CMakeFiles/1_4.dir/Match1/1_2.cpp.o CMakeFiles/1_4.dir/Match1/1_3.cpp.o CMakeFiles/1_4.dir/Match2/2_1.cpp.o CMakeFiles/1_4.dir/Match2/2_2.cpp.o CMakeFiles/1_4.dir/Match2/2_3.cpp.o CMakeFiles/1_4.dir/Match2/2_4.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/1_4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1_4
+  TARGET_PDB = 1_4.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2_1
+
+
+#############################################
+# Order-only phony target for 2_1
+
+build cmake_object_order_depends_target_2_1: phony || CMakeFiles/2_1.dir
+
+build CMakeFiles/2_1.dir/Match2/2_1.cpp.o: CXX_COMPILER__2_1_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_1.cpp || cmake_object_order_depends_target_2_1
+  DEP_FILE = CMakeFiles/2_1.dir/Match2/2_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_1.dir/Match2
+
+build CMakeFiles/2_1.dir/Match1/1_1.cpp.o: CXX_COMPILER__2_1_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_1.cpp || cmake_object_order_depends_target_2_1
+  DEP_FILE = CMakeFiles/2_1.dir/Match1/1_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_1.dir/Match1
+
+build CMakeFiles/2_1.dir/Match1/1_2.cpp.o: CXX_COMPILER__2_1_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_2.cpp || cmake_object_order_depends_target_2_1
+  DEP_FILE = CMakeFiles/2_1.dir/Match1/1_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_1.dir/Match1
+
+build CMakeFiles/2_1.dir/Match1/1_3.cpp.o: CXX_COMPILER__2_1_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_3.cpp || cmake_object_order_depends_target_2_1
+  DEP_FILE = CMakeFiles/2_1.dir/Match1/1_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_1.dir/Match1
+
+build CMakeFiles/2_1.dir/Match1/1_4.cpp.o: CXX_COMPILER__2_1_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_4.cpp || cmake_object_order_depends_target_2_1
+  DEP_FILE = CMakeFiles/2_1.dir/Match1/1_4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_1.dir/Match1
+
+build CMakeFiles/2_1.dir/Match2/2_2.cpp.o: CXX_COMPILER__2_1_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_2.cpp || cmake_object_order_depends_target_2_1
+  DEP_FILE = CMakeFiles/2_1.dir/Match2/2_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_1.dir/Match2
+
+build CMakeFiles/2_1.dir/Match2/2_3.cpp.o: CXX_COMPILER__2_1_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_3.cpp || cmake_object_order_depends_target_2_1
+  DEP_FILE = CMakeFiles/2_1.dir/Match2/2_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_1.dir/Match2
+
+build CMakeFiles/2_1.dir/Match2/2_4.cpp.o: CXX_COMPILER__2_1_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_4.cpp || cmake_object_order_depends_target_2_1
+  DEP_FILE = CMakeFiles/2_1.dir/Match2/2_4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_1.dir/Match2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2_1
+
+
+#############################################
+# Link the executable 2_1
+
+build 2_1: CXX_EXECUTABLE_LINKER__2_1_Debug CMakeFiles/2_1.dir/Match2/2_1.cpp.o CMakeFiles/2_1.dir/Match1/1_1.cpp.o CMakeFiles/2_1.dir/Match1/1_2.cpp.o CMakeFiles/2_1.dir/Match1/1_3.cpp.o CMakeFiles/2_1.dir/Match1/1_4.cpp.o CMakeFiles/2_1.dir/Match2/2_2.cpp.o CMakeFiles/2_1.dir/Match2/2_3.cpp.o CMakeFiles/2_1.dir/Match2/2_4.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/2_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2_1
+  TARGET_PDB = 2_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2_2
+
+
+#############################################
+# Order-only phony target for 2_2
+
+build cmake_object_order_depends_target_2_2: phony || CMakeFiles/2_2.dir
+
+build CMakeFiles/2_2.dir/Match2/2_2.cpp.o: CXX_COMPILER__2_2_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_2.cpp || cmake_object_order_depends_target_2_2
+  DEP_FILE = CMakeFiles/2_2.dir/Match2/2_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_2.dir/Match2
+
+build CMakeFiles/2_2.dir/Match1/1_1.cpp.o: CXX_COMPILER__2_2_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_1.cpp || cmake_object_order_depends_target_2_2
+  DEP_FILE = CMakeFiles/2_2.dir/Match1/1_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_2.dir/Match1
+
+build CMakeFiles/2_2.dir/Match1/1_2.cpp.o: CXX_COMPILER__2_2_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_2.cpp || cmake_object_order_depends_target_2_2
+  DEP_FILE = CMakeFiles/2_2.dir/Match1/1_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_2.dir/Match1
+
+build CMakeFiles/2_2.dir/Match1/1_3.cpp.o: CXX_COMPILER__2_2_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_3.cpp || cmake_object_order_depends_target_2_2
+  DEP_FILE = CMakeFiles/2_2.dir/Match1/1_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_2.dir/Match1
+
+build CMakeFiles/2_2.dir/Match1/1_4.cpp.o: CXX_COMPILER__2_2_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_4.cpp || cmake_object_order_depends_target_2_2
+  DEP_FILE = CMakeFiles/2_2.dir/Match1/1_4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_2.dir/Match1
+
+build CMakeFiles/2_2.dir/Match2/2_1.cpp.o: CXX_COMPILER__2_2_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_1.cpp || cmake_object_order_depends_target_2_2
+  DEP_FILE = CMakeFiles/2_2.dir/Match2/2_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_2.dir/Match2
+
+build CMakeFiles/2_2.dir/Match2/2_3.cpp.o: CXX_COMPILER__2_2_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_3.cpp || cmake_object_order_depends_target_2_2
+  DEP_FILE = CMakeFiles/2_2.dir/Match2/2_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_2.dir/Match2
+
+build CMakeFiles/2_2.dir/Match2/2_4.cpp.o: CXX_COMPILER__2_2_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_4.cpp || cmake_object_order_depends_target_2_2
+  DEP_FILE = CMakeFiles/2_2.dir/Match2/2_4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_2.dir/Match2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2_2
+
+
+#############################################
+# Link the executable 2_2
+
+build 2_2: CXX_EXECUTABLE_LINKER__2_2_Debug CMakeFiles/2_2.dir/Match2/2_2.cpp.o CMakeFiles/2_2.dir/Match1/1_1.cpp.o CMakeFiles/2_2.dir/Match1/1_2.cpp.o CMakeFiles/2_2.dir/Match1/1_3.cpp.o CMakeFiles/2_2.dir/Match1/1_4.cpp.o CMakeFiles/2_2.dir/Match2/2_1.cpp.o CMakeFiles/2_2.dir/Match2/2_3.cpp.o CMakeFiles/2_2.dir/Match2/2_4.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/2_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2_2
+  TARGET_PDB = 2_2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2_3
+
+
+#############################################
+# Order-only phony target for 2_3
+
+build cmake_object_order_depends_target_2_3: phony || CMakeFiles/2_3.dir
+
+build CMakeFiles/2_3.dir/Match2/2_3.cpp.o: CXX_COMPILER__2_3_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_3.cpp || cmake_object_order_depends_target_2_3
+  DEP_FILE = CMakeFiles/2_3.dir/Match2/2_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_3.dir/Match2
+
+build CMakeFiles/2_3.dir/Match1/1_1.cpp.o: CXX_COMPILER__2_3_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_1.cpp || cmake_object_order_depends_target_2_3
+  DEP_FILE = CMakeFiles/2_3.dir/Match1/1_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_3.dir/Match1
+
+build CMakeFiles/2_3.dir/Match1/1_2.cpp.o: CXX_COMPILER__2_3_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_2.cpp || cmake_object_order_depends_target_2_3
+  DEP_FILE = CMakeFiles/2_3.dir/Match1/1_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_3.dir/Match1
+
+build CMakeFiles/2_3.dir/Match1/1_3.cpp.o: CXX_COMPILER__2_3_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_3.cpp || cmake_object_order_depends_target_2_3
+  DEP_FILE = CMakeFiles/2_3.dir/Match1/1_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_3.dir/Match1
+
+build CMakeFiles/2_3.dir/Match1/1_4.cpp.o: CXX_COMPILER__2_3_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_4.cpp || cmake_object_order_depends_target_2_3
+  DEP_FILE = CMakeFiles/2_3.dir/Match1/1_4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_3.dir/Match1
+
+build CMakeFiles/2_3.dir/Match2/2_1.cpp.o: CXX_COMPILER__2_3_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_1.cpp || cmake_object_order_depends_target_2_3
+  DEP_FILE = CMakeFiles/2_3.dir/Match2/2_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_3.dir/Match2
+
+build CMakeFiles/2_3.dir/Match2/2_2.cpp.o: CXX_COMPILER__2_3_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_2.cpp || cmake_object_order_depends_target_2_3
+  DEP_FILE = CMakeFiles/2_3.dir/Match2/2_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_3.dir/Match2
+
+build CMakeFiles/2_3.dir/Match2/2_4.cpp.o: CXX_COMPILER__2_3_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_4.cpp || cmake_object_order_depends_target_2_3
+  DEP_FILE = CMakeFiles/2_3.dir/Match2/2_4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_3.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_3.dir/Match2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2_3
+
+
+#############################################
+# Link the executable 2_3
+
+build 2_3: CXX_EXECUTABLE_LINKER__2_3_Debug CMakeFiles/2_3.dir/Match2/2_3.cpp.o CMakeFiles/2_3.dir/Match1/1_1.cpp.o CMakeFiles/2_3.dir/Match1/1_2.cpp.o CMakeFiles/2_3.dir/Match1/1_3.cpp.o CMakeFiles/2_3.dir/Match1/1_4.cpp.o CMakeFiles/2_3.dir/Match2/2_1.cpp.o CMakeFiles/2_3.dir/Match2/2_2.cpp.o CMakeFiles/2_3.dir/Match2/2_4.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/2_3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2_3
+  TARGET_PDB = 2_3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2_4
+
+
+#############################################
+# Order-only phony target for 2_4
+
+build cmake_object_order_depends_target_2_4: phony || CMakeFiles/2_4.dir
+
+build CMakeFiles/2_4.dir/Match2/2_4.cpp.o: CXX_COMPILER__2_4_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_4.cpp || cmake_object_order_depends_target_2_4
+  DEP_FILE = CMakeFiles/2_4.dir/Match2/2_4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_4.dir/Match2
+
+build CMakeFiles/2_4.dir/Match1/1_1.cpp.o: CXX_COMPILER__2_4_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_1.cpp || cmake_object_order_depends_target_2_4
+  DEP_FILE = CMakeFiles/2_4.dir/Match1/1_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_4.dir/Match1
+
+build CMakeFiles/2_4.dir/Match1/1_2.cpp.o: CXX_COMPILER__2_4_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_2.cpp || cmake_object_order_depends_target_2_4
+  DEP_FILE = CMakeFiles/2_4.dir/Match1/1_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_4.dir/Match1
+
+build CMakeFiles/2_4.dir/Match1/1_3.cpp.o: CXX_COMPILER__2_4_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_3.cpp || cmake_object_order_depends_target_2_4
+  DEP_FILE = CMakeFiles/2_4.dir/Match1/1_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_4.dir/Match1
+
+build CMakeFiles/2_4.dir/Match1/1_4.cpp.o: CXX_COMPILER__2_4_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_4.cpp || cmake_object_order_depends_target_2_4
+  DEP_FILE = CMakeFiles/2_4.dir/Match1/1_4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_4.dir/Match1
+
+build CMakeFiles/2_4.dir/Match2/2_1.cpp.o: CXX_COMPILER__2_4_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_1.cpp || cmake_object_order_depends_target_2_4
+  DEP_FILE = CMakeFiles/2_4.dir/Match2/2_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_4.dir/Match2
+
+build CMakeFiles/2_4.dir/Match2/2_2.cpp.o: CXX_COMPILER__2_4_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_2.cpp || cmake_object_order_depends_target_2_4
+  DEP_FILE = CMakeFiles/2_4.dir/Match2/2_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_4.dir/Match2
+
+build CMakeFiles/2_4.dir/Match2/2_3.cpp.o: CXX_COMPILER__2_4_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_3.cpp || cmake_object_order_depends_target_2_4
+  DEP_FILE = CMakeFiles/2_4.dir/Match2/2_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/2_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_4.dir/Match2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2_4
+
+
+#############################################
+# Link the executable 2_4
+
+build 2_4: CXX_EXECUTABLE_LINKER__2_4_Debug CMakeFiles/2_4.dir/Match2/2_4.cpp.o CMakeFiles/2_4.dir/Match1/1_1.cpp.o CMakeFiles/2_4.dir/Match1/1_2.cpp.o CMakeFiles/2_4.dir/Match1/1_3.cpp.o CMakeFiles/2_4.dir/Match1/1_4.cpp.o CMakeFiles/2_4.dir/Match2/2_1.cpp.o CMakeFiles/2_4.dir/Match2/2_2.cpp.o CMakeFiles/2_4.dir/Match2/2_3.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/2_4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2_4
+  TARGET_PDB = 2_4.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target CMakeCXXCompilerId
 
 
@@ -52,6 +636,54 @@ build CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXX
   OBJECT_DIR = CMakeFiles/CMakeCXXCompilerId.dir
   OBJECT_FILE_DIR = CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.23.2/CompilerIdCXX
 
+build CMakeFiles/CMakeCXXCompilerId.dir/Match1/1_1.cpp.o: CXX_COMPILER__CMakeCXXCompilerId_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_1.cpp || cmake_object_order_depends_target_CMakeCXXCompilerId
+  DEP_FILE = CMakeFiles/CMakeCXXCompilerId.dir/Match1/1_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/CMakeCXXCompilerId.dir
+  OBJECT_FILE_DIR = CMakeFiles/CMakeCXXCompilerId.dir/Match1
+
+build CMakeFiles/CMakeCXXCompilerId.dir/Match1/1_2.cpp.o: CXX_COMPILER__CMakeCXXCompilerId_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_2.cpp || cmake_object_order_depends_target_CMakeCXXCompilerId
+  DEP_FILE = CMakeFiles/CMakeCXXCompilerId.dir/Match1/1_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/CMakeCXXCompilerId.dir
+  OBJECT_FILE_DIR = CMakeFiles/CMakeCXXCompilerId.dir/Match1
+
+build CMakeFiles/CMakeCXXCompilerId.dir/Match1/1_3.cpp.o: CXX_COMPILER__CMakeCXXCompilerId_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_3.cpp || cmake_object_order_depends_target_CMakeCXXCompilerId
+  DEP_FILE = CMakeFiles/CMakeCXXCompilerId.dir/Match1/1_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/CMakeCXXCompilerId.dir
+  OBJECT_FILE_DIR = CMakeFiles/CMakeCXXCompilerId.dir/Match1
+
+build CMakeFiles/CMakeCXXCompilerId.dir/Match1/1_4.cpp.o: CXX_COMPILER__CMakeCXXCompilerId_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_4.cpp || cmake_object_order_depends_target_CMakeCXXCompilerId
+  DEP_FILE = CMakeFiles/CMakeCXXCompilerId.dir/Match1/1_4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/CMakeCXXCompilerId.dir
+  OBJECT_FILE_DIR = CMakeFiles/CMakeCXXCompilerId.dir/Match1
+
+build CMakeFiles/CMakeCXXCompilerId.dir/Match2/2_1.cpp.o: CXX_COMPILER__CMakeCXXCompilerId_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_1.cpp || cmake_object_order_depends_target_CMakeCXXCompilerId
+  DEP_FILE = CMakeFiles/CMakeCXXCompilerId.dir/Match2/2_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/CMakeCXXCompilerId.dir
+  OBJECT_FILE_DIR = CMakeFiles/CMakeCXXCompilerId.dir/Match2
+
+build CMakeFiles/CMakeCXXCompilerId.dir/Match2/2_2.cpp.o: CXX_COMPILER__CMakeCXXCompilerId_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_2.cpp || cmake_object_order_depends_target_CMakeCXXCompilerId
+  DEP_FILE = CMakeFiles/CMakeCXXCompilerId.dir/Match2/2_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/CMakeCXXCompilerId.dir
+  OBJECT_FILE_DIR = CMakeFiles/CMakeCXXCompilerId.dir/Match2
+
+build CMakeFiles/CMakeCXXCompilerId.dir/Match2/2_3.cpp.o: CXX_COMPILER__CMakeCXXCompilerId_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_3.cpp || cmake_object_order_depends_target_CMakeCXXCompilerId
+  DEP_FILE = CMakeFiles/CMakeCXXCompilerId.dir/Match2/2_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/CMakeCXXCompilerId.dir
+  OBJECT_FILE_DIR = CMakeFiles/CMakeCXXCompilerId.dir/Match2
+
+build CMakeFiles/CMakeCXXCompilerId.dir/Match2/2_4.cpp.o: CXX_COMPILER__CMakeCXXCompilerId_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_4.cpp || cmake_object_order_depends_target_CMakeCXXCompilerId
+  DEP_FILE = CMakeFiles/CMakeCXXCompilerId.dir/Match2/2_4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/CMakeCXXCompilerId.dir
+  OBJECT_FILE_DIR = CMakeFiles/CMakeCXXCompilerId.dir/Match2
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CMakeCXXCompilerId
@@ -60,7 +692,7 @@ build CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXX
 #############################################
 # Link the executable CMakeCXXCompilerId
 
-build CMakeCXXCompilerId: CXX_EXECUTABLE_LINKER__CMakeCXXCompilerId_Debug CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
+build CMakeCXXCompilerId: CXX_EXECUTABLE_LINKER__CMakeCXXCompilerId_Debug CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.o CMakeFiles/CMakeCXXCompilerId.dir/Match1/1_1.cpp.o CMakeFiles/CMakeCXXCompilerId.dir/Match1/1_2.cpp.o CMakeFiles/CMakeCXXCompilerId.dir/Match1/1_3.cpp.o CMakeFiles/CMakeCXXCompilerId.dir/Match1/1_4.cpp.o CMakeFiles/CMakeCXXCompilerId.dir/Match2/2_1.cpp.o CMakeFiles/CMakeCXXCompilerId.dir/Match2/2_2.cpp.o CMakeFiles/CMakeCXXCompilerId.dir/Match2/2_3.cpp.o CMakeFiles/CMakeCXXCompilerId.dir/Match2/2_4.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
   OBJECT_DIR = CMakeFiles/CMakeCXXCompilerId.dir
   POST_BUILD = :
@@ -83,6 +715,54 @@ build CMakeFiles/main.dir/main.cpp.o: CXX_COMPILER__main_Debug /Users/pengke/Git
   OBJECT_DIR = CMakeFiles/main.dir
   OBJECT_FILE_DIR = CMakeFiles/main.dir
 
+build CMakeFiles/main.dir/Match1/1_1.cpp.o: CXX_COMPILER__main_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_1.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles/main.dir/Match1/1_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/main.dir
+  OBJECT_FILE_DIR = CMakeFiles/main.dir/Match1
+
+build CMakeFiles/main.dir/Match1/1_2.cpp.o: CXX_COMPILER__main_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_2.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles/main.dir/Match1/1_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/main.dir
+  OBJECT_FILE_DIR = CMakeFiles/main.dir/Match1
+
+build CMakeFiles/main.dir/Match1/1_3.cpp.o: CXX_COMPILER__main_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_3.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles/main.dir/Match1/1_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/main.dir
+  OBJECT_FILE_DIR = CMakeFiles/main.dir/Match1
+
+build CMakeFiles/main.dir/Match1/1_4.cpp.o: CXX_COMPILER__main_Debug /Users/pengke/Github/MyAlgorithm/Project/Match1/1_4.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles/main.dir/Match1/1_4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/main.dir
+  OBJECT_FILE_DIR = CMakeFiles/main.dir/Match1
+
+build CMakeFiles/main.dir/Match2/2_1.cpp.o: CXX_COMPILER__main_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_1.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles/main.dir/Match2/2_1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/main.dir
+  OBJECT_FILE_DIR = CMakeFiles/main.dir/Match2
+
+build CMakeFiles/main.dir/Match2/2_2.cpp.o: CXX_COMPILER__main_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_2.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles/main.dir/Match2/2_2.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/main.dir
+  OBJECT_FILE_DIR = CMakeFiles/main.dir/Match2
+
+build CMakeFiles/main.dir/Match2/2_3.cpp.o: CXX_COMPILER__main_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_3.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles/main.dir/Match2/2_3.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/main.dir
+  OBJECT_FILE_DIR = CMakeFiles/main.dir/Match2
+
+build CMakeFiles/main.dir/Match2/2_4.cpp.o: CXX_COMPILER__main_Debug /Users/pengke/Github/MyAlgorithm/Project/Match2/2_4.cpp || cmake_object_order_depends_target_main
+  DEP_FILE = CMakeFiles/main.dir/Match2/2_4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/main.dir
+  OBJECT_FILE_DIR = CMakeFiles/main.dir/Match2
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target main
@@ -91,7 +771,7 @@ build CMakeFiles/main.dir/main.cpp.o: CXX_COMPILER__main_Debug /Users/pengke/Git
 #############################################
 # Link the executable main
 
-build main: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.o
+build main: CXX_EXECUTABLE_LINKER__main_Debug CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/Match1/1_1.cpp.o CMakeFiles/main.dir/Match1/1_2.cpp.o CMakeFiles/main.dir/Match1/1_3.cpp.o CMakeFiles/main.dir/Match1/1_4.cpp.o CMakeFiles/main.dir/Match2/2_1.cpp.o CMakeFiles/main.dir/Match2/2_2.cpp.o CMakeFiles/main.dir/Match2/2_3.cpp.o CMakeFiles/main.dir/Match2/2_4.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
   OBJECT_DIR = CMakeFiles/main.dir
   POST_BUILD = :
@@ -133,7 +813,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/pengke/Github/MyAlgorithm/Project/cmake-build-debug
 
-build all: phony CMakeCXXCompilerId main
+build all: phony 1_1 1_2 1_3 1_4 2_1 2_2 2_3 2_4 CMakeCXXCompilerId main
 
 # =============================================================================
 # Built-in targets
