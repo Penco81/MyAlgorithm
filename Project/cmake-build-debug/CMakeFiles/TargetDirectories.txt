@@ -6,6 +6,7 @@
 /Users/pengke/Github/MyAlgorithm/Project/cmake-build-debug/CMakeFiles/2_2.dir
 /Users/pengke/Github/MyAlgorithm/Project/cmake-build-debug/CMakeFiles/2_3.dir
 /Users/pengke/Github/MyAlgorithm/Project/cmake-build-debug/CMakeFiles/2_4.dir
+/Users/pengke/Github/MyAlgorithm/Project/cmake-build-debug/CMakeFiles/p1.dir
 /Users/pengke/Github/MyAlgorithm/Project/cmake-build-debug/CMakeFiles/CMakeCXXCompilerId.dir
 /Users/pengke/Github/MyAlgorithm/Project/cmake-build-debug/CMakeFiles/main.dir
 /Users/pengke/Github/MyAlgorithm/Project/cmake-build-debug/CMakeFiles/edit_cache.dir
