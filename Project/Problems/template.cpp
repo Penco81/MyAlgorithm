@@ -27,3 +27,19 @@ struct ListNode {
     ListNode(int x) : val(x), next(nullptr) {}
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
+
+//获取公倍数
+
+//获取公因数
+
+//xxx质因子的个数
+int getNum(int num, int x)
+{
+    int cnt = 0;
+    while(num % x == 0)
+    {
+        num = num / x;
+        cnt++;
+    }
+    return cnt;
+}
