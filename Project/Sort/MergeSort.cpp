@@ -8,6 +8,9 @@
 #include<set>
 using namespace  std;
 
+//时间复杂度 nlogn
+//空间复杂度 O(n)
+//是否稳定 是
 class MergeSort {
 public:
     void Sort(vector<int>& arrays)
@@ -37,7 +40,7 @@ public:
             }
             else
             {
-                temp[cnt++] = arrays[j];
+                temp[cnt++] = arrays[i];
                 j++;
             }
         }
@@ -48,7 +51,7 @@ public:
         }
         while(j <= e)
         {
-            temp[cnt++] = arrays[j];
+            temp[cnt++] = arrays[i];
             j++;
         }
         for(int i = 0; i < cnt; i++)
@@ -58,13 +61,3 @@ public:
     }
 };
 
-int main() {
-    MergeSort ms;
-    vector<int> vec = {2,3,6,7,9,11,223};
-    ms.Sort(vec);
-    for(int i = 0; i < vec.size(); i++)
-    {
-        cout << vec[i] << endl;
-    }
-    return 0;
-}
