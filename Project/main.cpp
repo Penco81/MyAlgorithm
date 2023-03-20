@@ -8,7 +8,7 @@
 #include<set>
 using namespace  std;
 
-class MergeSort {
+class SortClass {
 public:
     void Sort(vector<int>& arrays)
     {
@@ -32,24 +32,20 @@ public:
             //这里的= 取决归并是否为稳定排序
             if(arrays[i] <= arrays[j])
             {
-                temp[cnt++] = arrays[i];
-                i++;
+                temp[cnt++] = arrays[i++];
             }
             else
             {
-                temp[cnt++] = arrays[j];
-                j++;
+                temp[cnt++] = arrays[j++];
             }
         }
         while(i <= mid)
         {
-            temp[cnt++] = arrays[i];
-            i++;
+            temp[cnt++] = arrays[i++];
         }
         while(j <= e)
         {
-            temp[cnt++] = arrays[j];
-            j++;
+            temp[cnt++] = arrays[j++];
         }
         for(int i = 0; i < cnt; i++)
         {
@@ -59,9 +55,9 @@ public:
 };
 
 int main() {
-    MergeSort ms;
-    vector<int> vec = {2,3,6,7,9,11,223};
-    ms.Sort(vec);
+    SortClass sc;
+    vector<int> vec = {2,123,8,7,6,113,223};
+    sc.Sort(vec);
     for(int i = 0; i < vec.size(); i++)
     {
         cout << vec[i] << endl;

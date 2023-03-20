@@ -35,24 +35,20 @@ public:
             //这里的= 取决归并是否为稳定排序
             if(arrays[i] <= arrays[j])
             {
-                temp[cnt++] = arrays[i];
-                i++;
+                temp[cnt++] = arrays[i++];
             }
             else
             {
-                temp[cnt++] = arrays[i];
-                j++;
+                temp[cnt++] = arrays[j++];
             }
         }
         while(i <= mid)
         {
-            temp[cnt++] = arrays[i];
-            i++;
+            temp[cnt++] = arrays[i++];
         }
         while(j <= e)
         {
-            temp[cnt++] = arrays[i];
-            j++;
+            temp[cnt++] = arrays[j++];
         }
         for(int i = 0; i < cnt; i++)
         {
